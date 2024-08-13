@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+  <test  name="TestTendable">
+  	<classes>
+  		<class name="tendableV01.BaseClassTendable">
+  			<methods>
+  			<include name="testMenuAccessibilityAndRequestDemoButton"/>
+  			<include name="testMarketingContactFormValidation"/>
+  			<include name="draftBugReport"></include>
+  			</methods>
+  		</class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

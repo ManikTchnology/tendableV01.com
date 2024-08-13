@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-13T21:54:41 IST" name="Default suite" finished-at="2024-08-13T21:56:07 IST" duration-ms="86565">
+    <groups>
+    </groups>
+    <test started-at="2024-08-13T21:54:41 IST" name="Default test" finished-at="2024-08-13T21:56:07 IST" duration-ms="86565">
+      <class name="tendableV01.com.BaseClassTendable">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tendableV01.com.BaseClassTendable@65e61854]" started-at="2024-08-13T21:54:41 IST" name="setup" finished-at="2024-08-13T21:55:12 IST" duration-ms="30660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMarketingContactFormValidation()[pri:0, instance:tendableV01.com.BaseClassTendable@65e61854]" started-at="2024-08-13T21:55:12 IST" name="testMarketingContactFormValidation" finished-at="2024-08-13T21:56:02 IST" duration-ms="50201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarketingContactFormValidation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tendableV01.com.BaseClassTendable@65e61854]" started-at="2024-08-13T21:56:02 IST" name="tearDown" finished-at="2024-08-13T21:56:07 IST" duration-ms="5465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMarketingContactFormValidation status=SUCCESS method=BaseClassTendable.testMarketingContactFormValidation()[pri:0, instance:tendableV01.com.BaseClassTendable@65e61854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testMenuAccessibilityAndRequestDemoButton()[pri:0, instance:tendableV01.com.BaseClassTendable@65e61854]" started-at="2024-08-13T21:56:07 IST" name="testMenuAccessibilityAndRequestDemoButton" finished-at="2024-08-13T21:56:07 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuAccessibilityAndRequestDemoButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tendableV01.com.BaseClassTendable@65e61854]" started-at="2024-08-13T21:56:07 IST" name="tearDown" finished-at="2024-08-13T21:56:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMenuAccessibilityAndRequestDemoButton status=SUCCESS method=BaseClassTendable.testMenuAccessibilityAndRequestDemoButton()[pri:0, instance:tendableV01.com.BaseClassTendable@65e61854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tendableV01.com.BaseClassTendable -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
